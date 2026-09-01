@@ -22,6 +22,7 @@ let player2 = {
     height: playerHeight,
 }
 
+// pelin aloitus
 window.onload = function() {
     board = document.getElementById("board");
     board.height = boardHeight;
@@ -31,6 +32,7 @@ window.onload = function() {
     requestAnimationFrame(update);
 }
 
+// pelin päivitys
 function update() {
     requestAnimationFrame(update);
 
